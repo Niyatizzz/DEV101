@@ -1,0 +1,13 @@
+mern stack
+full stack application
+code that runs on server - backend
+code that runs on browser - frontend
+usually two separate repositories
+backend runs on:
+restapi RESTful API - interface that two systems use to exchange info
+frontend runs on:
+CRUD operations - requests recived by backend
+create - POST
+read - GET
+update - patch/put
+delete - delete

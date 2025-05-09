@@ -1,0 +1,4 @@
+hypertext markup language
+hypertext - links that connect webpages to one another
+markup of elements
+defines the stucture and content of a web page
