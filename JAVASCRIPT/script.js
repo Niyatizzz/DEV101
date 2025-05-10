@@ -10,3 +10,25 @@ let myVariable
 console.log(myVariable)
 
 //alert("helloo") - alert box
+
+//objects - key value pairs - {}
+const myObj = {name : "abc"};
+console.log(myObj)
+
+const myObjj = {
+    alive : true,
+    age : 18,
+    hobbies : ['eat', 'sleep'],
+    beverage : {
+        morning : 'coffee',
+        evening : 'tea'
+    },
+    //method
+    action : function myfunc () {
+        return `time for ${this.beverage.morning}`;
+    }
+};
+console.log(myObjj.beverage.evening)
+console.log(myObjj.hobbies[0])
+
+

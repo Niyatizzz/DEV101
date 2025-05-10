@@ -11,15 +11,15 @@ if(playgame) {
             let computerhand = computerchoice === 1 ? "rock" : computerchoice === 2 ? "paper" : "scissors";
 
             let result =
-              playerOne === computer
+              playerhand === computerhand
                 ? "Tie game!"
-                : playerOne === "rock" && computer === "paper"
-                ? `playerOne: ${playerOne}\nComputer: ${computer}\nComputer wins!`
-                : playerOne === "paper" && computer === "scissors"
-                ? `playerOne: ${playerOne}\nComputer: ${computer}\nComputer wins!`
-                : playerOne === "scissors" && computer === "rock"
-                ? `playerOne: ${playerOne}\nComputer: ${computer}\nComputer wins!`
-                : `playerOne: ${playerOne}\nComputer: ${computer}\nplayerOne wins!`;
+                : playerhand === "rock" && computerhand === "paper"
+                ? `playerhand: ${playerhand}\nComputer: ${computerhand}\nComputer wins!`
+                : playerhand === "paper" && computerhand === "scissors"
+                ? `playerhand: ${playerhand}\nComputer: ${computerhand}\nComputer wins!`
+                : playerhand === "scissors" && computerhand === "rock"
+                ? `playerOne: ${playerhand}\nComputer: ${computerhand}\nComputer wins!`
+                : `playerOne: ${playerhand}\nComputer: ${computerhand}\nplayerOne wins!`;
             alert(result);
             let playAgain = confirm("Play Again?");
             playAgain ? location.reload() : alert("Ok, thanks for playing.");
