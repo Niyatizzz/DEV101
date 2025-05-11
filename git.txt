@@ -1,4 +1,4 @@
 git - free open source distributed version control system designed to handle projects
 version control - practice of changing and managing changes to a software code aka source control, helps manage changes over time, track modifications
 git is a version control system
-github is a platform or site to host those projects and repositories
+github is a platform or site to host those projects and repositories - cloud based hosting service
